@@ -23,27 +23,18 @@ Fitness Buddy is a full-stack AI fitness planner. Users can create an account, e
 | AI | Google Gemini API |
 | PDF export | jsPDF and html2canvas |
 
-## Project structure
 
-```text
-fitness_buddy/
-├── backend/
-│   ├── src/
-│   │   ├── config/        # MongoDB and Gemini configuration
-│   │   ├── controllers/   # Authentication and fitness-plan logic
-│   │   ├── middleware/    # Route protection
-│   │   ├── models/        # User and FitnessPlan schemas
-│   │   └── routes/        # REST endpoints
-│   ├── .env.example
-│   └── server.js
-└── frontend/
-    └── src/
-        ├── components/
-        ├── pages/
-        ├── services/
-        └── utility/
-```
 
+## Deployment
+
+https://fitness-buddy5.netlify.app/
+
+---
+
+
+<img width="1847" height="882" alt="image" src="https://github.com/user-attachments/assets/6f36bffa-ec5f-44d3-85a6-34252b468454" />
+
+---
 ## Prerequisites
 
 - Node.js 18 or later
@@ -55,7 +46,7 @@ fitness_buddy/
 1. Clone the repository and open the project folder.
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/shristi76/Fitness_Buddy.git
    cd fitness_buddy
    ```
 
@@ -147,10 +138,7 @@ Authorization: Bearer <token>
 - Each plan is linked to its owner, and list/delete queries are scoped to that user.
 - Keep secrets in `.env` only. Use a different `JWT_SECRET` and database for production.
 
-## Deployment
-
-For production, deploy the frontend and backend separately, set `VITE_API_URL` in the frontend environment to the deployed API URL, and set `CLIENT_URL` in the backend to the deployed frontend URL. Use a managed MongoDB connection and HTTPS.
 
 ## License
 
-This project is intended for educational and portfolio use.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
