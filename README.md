@@ -36,6 +36,9 @@ https://fitness-buddy5.netlify.app/
 
 <img width="1847" height="882" alt="image" src="https://github.com/user-attachments/assets/6f36bffa-ec5f-44d3-85a6-34252b468454" />
 
+
+<img width="1902" height="841" alt="image" src="https://github.com/user-attachments/assets/8adbc6c5-795c-4bd8-8a58-840423136ba1" />
+
 ---
 ## Prerequisites
 
