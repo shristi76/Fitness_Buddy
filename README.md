@@ -23,7 +23,9 @@ Fitness Buddy is a full-stack AI fitness planner. Users can create an account, e
 | AI | Google Gemini API |
 | PDF export | jsPDF and html2canvas |
 
-
+## Dummy data for login
+email - dinesh@gmail.com
+password - 1234
 
 ## Deployment
 
